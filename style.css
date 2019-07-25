@@ -1,0 +1,348 @@
+body{
+    margin:0px 250px;
+    background-color: rgb(247, 242, 234);
+}
+.main-logo{
+    padding-top:40px;
+    text-align: center;
+    width:860px;
+}
+@font-face{
+    font-family: 'courier';
+    src:url('Courier Prime.ttf')
+}
+@font-face{
+    font-family: helvet;
+    src:url('HelveticaNeue Light.ttf');
+}
+@font-face{
+    font-family: latin;
+    src:url('lmmono10-regular.otf');
+}
+.dropdown{
+    display:inline;
+}
+.menu{
+    height:45px;
+    padding-top:20px;
+    text-align: center;
+   width:860px;
+}
+.dropdown a{
+    font-family:'courier';
+    font-size:21px;
+    text-decoration: none;
+    color:#111;
+    transition: 1s;
+    padding:20px;
+}
+.dropdown a:hover{
+color:rgb(43, 186, 243);
+}
+.main-img{
+    position:relative;
+    margin-bottom:60px;
+}
+.main-img button{
+    position: absolute;
+    top:240px;
+    left:332px;
+    width:220px;
+    height:40px;
+    font-family:'courier';
+    background-color: rgb(247, 242, 234);
+    border:1px solid #111;
+    transition:1s;
+}
+.main-img button:hover{
+    color:rgb(43, 186, 243);
+    border:1px solid rgb(43, 186, 243);
+    background-color: rgb(124, 124, 124);
+}
+.desc{
+    margin-bottom:60px;
+}
+.heading{
+    font-family: 'courier';
+    font-size:25px;
+    text-align: center;
+    border-bottom:1px solid #111;
+    padding:10px 0px;
+    width:860px;
+}
+.tour-list{
+width:860px;
+height:145px;
+}
+.date{
+   float:left;
+font-family: 'courier';
+font-size:20px;
+text-transform: uppercase;
+margin-left:40px;
+margin-top:50px;
+}
+.date p{
+    margin:0px;
+    font-size:34px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.date span{
+    font-size:16px;
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.venue{
+    float:left;
+    font-family:'helvet';
+    font-size:20px;
+    margin-left:70px;
+    margin-top:50px;
+    padding-top:20px;
+    width:190px;
+}
+.venue a{
+    font-family:'helvet';
+    font-size:15px;
+    color:#111;
+}
+.country{
+    float:left;
+    font-size:17px;
+   font-family:'helvet';
+    margin-left:120px;
+    margin-top:50px;
+    padding-top:20px;
+    width:90px;
+}
+.country span{
+    font-family:'helvet';
+    text-transform: uppercase;
+    font-size:16px;
+}
+.tour-list button{
+    float:left;
+    width:134px;
+    height:35px;
+    font-size:16px;
+    transition:.5s;
+    font-family:'courier';
+background-color: rgb(43, 186, 243);
+border:1px solid rgb(43, 186, 243);
+color:#fff;
+margin-left:120px;
+margin-top:60px;
+}
+.tour-list button:hover{
+    color:#111;
+    border:1px solid #111;
+    background:transparent;
+}
+#heading {
+    font-family:'courier';
+    text-align: center;
+    font-size:19px;
+    margin-top:70px;
+    width:860px;
+   
+}
+#heading a:hover{
+    color:rgb(43, 186, 243);
+}
+#heading a{
+color:black;
+transition:.7s;
+}
+.box{
+    margin-top:60px;
+    padding:24px 40px;
+    background: rgba(0,0,0,.1);
+    width:780px;
+    height:105px;
+    margin-bottom:40px;
+}
+.left{
+    float:left;
+    width:49%;
+    height:105px;
+    
+}
+.left p{
+    margin:0px;
+    font-family:'courier';
+    font-size:17px;
+}
+.left a{
+color:#111;
+font-size:25px;
+padding:12px;
+}
+.right{
+    float:right;
+    width:45%;
+    height:105px;
+    padding-top:25px;
+    
+}
+.right input{
+    width:175px;
+    padding:10px 0px;
+    border-bottom:1px solid #111;
+    border-left:none;
+    border-top:none;
+    border-right:none;
+    background: transparent;
+    margin-left:65px;
+}
+.right span button{
+    width:100px;
+    height:35px;
+    border:1px solid #111;
+    background: transparent;
+    font-family: 'courier';
+    transition: .5s;
+    font-size:14px;
+}
+.right span button:hover{
+color:#fff;
+background-color: rgb(43, 186, 243);
+border:1px solid rgb(43, 186, 243);
+}
+.right a{
+    color:#111;
+    font-family: 'courier';
+    font-size:11px;
+    margin-left:65px;
+}
+.news-cont{
+    width:860px;
+}
+.news{
+    margin-top:40px;
+    margin-bottom:40px;
+   float:left;
+    width:32%;
+    margin-right:16px;
+    
+}
+.news2{
+    margin-top:40px;
+    float:right;
+     width:32%;
+     margin-bottom:40px;
+
+ }
+.img-text{
+    position:relative;
+   
+}
+.img-text p{
+    display:none;
+position:absolute;
+bottom:5px;
+padding:10px 2px;
+font-family:'courier';
+font-size:18px;
+text-align: center;
+width:100%;
+background-color:rgba(247, 242, 234,.8);
+}
+.img-text:hover p{
+    display:block;
+}
+.div{
+    font-family:'helvet';
+font-size:15px;
+}
+.div2{
+    font-family:'courier';
+font-size:13px;
+margin-top:15px;
+}
+.div2 span button{
+    width:105px;
+    height:30px;
+    border:1px solid #111;
+    background: transparent;
+    font-family: 'courier';
+    transition: .5s;
+    font-size:14px;
+    margin-left:84px;
+}
+.div2 span button:hover{
+    color:#fff;
+background-color: rgb(43, 186, 243);
+border:1px solid rgb(43, 186, 243);
+}
+.mer-cont{
+    width:860px;
+height:380px;
+}
+.mer{
+width:30%;
+margin-top:15px;
+float:left;
+margin-right:43px;
+}
+.mer2{
+    width:30%;
+    margin-top:15px;
+    float:right;
+    }
+.mer-img{
+    border:1px solid #111;
+}
+.mer-text{
+    font-family:'latin';
+    font-size:19px;
+    margin-top:10px;
+}
+.mer-cont div button{
+    width:96px;
+    height:37px;
+    border:1px solid #111;
+    background: transparent;
+    font-family: 'latin';
+    transition: .5s;
+    font-size:15px;
+    margin-top:17px;
+}
+.mer-cont div button:hover{
+    color:#fff;
+background-color: rgb(43, 186, 243);
+border:1px solid rgb(43, 186, 243);
+}
+.footer{
+    width:860px;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    height:137px;
+}
+.logos{
+    padding-top:30px;
+    margin-top:50px;
+}
+.logos a{
+    color:#fff;
+    font-size:25px;
+    padding:12px;
+}
+.copy{
+    padding-top:28px;
+}
+.copy span{
+    color:#fff;
+    font-family:'courier';
+font-size:12px;
+}
+.copy a{
+color:rgb(165, 165, 165);
+text-decoration:none;
+font-family:'courier';
+font-size:12px;
+padding:10px;
+transition: .5s;
+}
+.copy a:hover{
+color:#fff;
+}
